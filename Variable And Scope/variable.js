@@ -1,7 +1,7 @@
 console.log("Hello Variables")
 
 //Scope
-//Scope is certain region of a program where defined variables exist can be recongnined and beyond scope can not
+//Scope is certain region of a program where defined variables exist can be recongnined and beyond scope can not.
 // The scope is the current context of execution in which values and expressions are "visible" or can be referenced.
 //  If a variable or expression is not in the current scope, it will not be available for use.
 //   Scopes can also be layered in a hierarchy, so that child scopes have access to parent scopes, but not vice versa.
@@ -24,7 +24,7 @@ console.log("Hello Variables")
 
 // 3. Global scope: The default scope for all code running in script mode.
 
-// This Is in global scope
+// This is in global scope
 // Var is function scope
 // var a=5
 
@@ -148,7 +148,7 @@ Modern standard → globalThis (works everywhere)
  And window is equivalent to this. When a JS code is run, a global execution context is created.
   A global object window is created, and along with that this variable is created.
 
-In second step, it setups memory heap  for variables and fucntion references, it takes variables and functions and
+In second step, it setups memory heap  for variables and function references, it takes variables and functions and
  store inside window object
 
 In Third step, it initialises those variables undefined  and functions with there defenition 
