@@ -10,12 +10,13 @@ Closures: A closure is the combination of a function bundled together (enclosed)
 
 // Lexical Environment: Lexical environment is the local memory along with lexical environment with its parent.
 //-> When ever execution context is created, a lexical environment is also get created.
-//-> Scope is direcly related to lexicl environment
+//-> Scope is direcly related to lexical environment
 // Execution Context have tree parts
 // 1. Lexical Environmen:
 // Lexical Environmen have two parts:
-// i. Variable Environment: It is used to store variable and function declarations.
-// ii. Refrence: Refrence to the parent lexical environment. 
+// i. Variable Environment: It is used to store variable and function declarations.(Object like structure)
+// ii. Refrence: Refrence to the parent lexical environment(Scope chain). 
+// Scope chain contains refrence of super LE.
 // 2. this
 // 3. metadata
 
